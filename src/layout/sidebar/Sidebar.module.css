@@ -1,0 +1,19 @@
+.container {
+    width: 5vw;
+    height: 100vh;
+    background-color: #2857a4;
+    position: fixed;
+    
+}
+
+.container :hover{
+    max-width: 15vw;
+}
+
+.sideicon {
+    max-width: 3rem;
+    max-height: 3rem;
+    margin : 45vh 0 0 3vw;
+    background-color: white;
+    border-radius: 80%;
+}
