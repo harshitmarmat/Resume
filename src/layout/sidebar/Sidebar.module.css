@@ -3,11 +3,17 @@
     height: 100vh;
     background-color: #2857a4;
     position: fixed;
-    
+    transition-duration: 0.3s;
+    transform-style: ease-out;
 }
 
-.container :hover{
-    max-width: 15vw;
+.wideContainer {
+    width: 15vw;
+    height: 100vh;
+    background-color: #2857a4;
+    position: fixed;
+    transition-duration: 0.3s;
+    transform-style: ease-out;
 }
 
 .sideicon {
@@ -16,4 +22,17 @@
     margin : 45vh 0 0 3vw;
     background-color: white;
     border-radius: 80%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closeSideIcon{
+    transform: rotate(180deg);
+    max-width: 3rem;
+    max-height: 3rem;
+    margin : 45vh 0 0 13.4vw;
+    background-color: white;
+    border-radius: 80%;
+    cursor: pointer;
+    transition: 0.3s;
 }
